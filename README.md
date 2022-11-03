@@ -10,6 +10,6 @@ Codecademy Learn JavaScript
 
 Codecademy Learn Intermediate JavaScript
 - Library Catalog
--
+- School Catalog
 -
 -
