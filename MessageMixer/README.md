@@ -11,7 +11,7 @@ To run the service:
 
 Ex.: 
 $ node message-mixer.js caesar 4
-Enter the message you would like to encrypt...
+<br>Enter the message you would like to encrypt...
 > hello world
 
 Here is your encrypted message:
