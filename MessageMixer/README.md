@@ -6,8 +6,8 @@ Prompt Summary below:
 Message Mixer Inc. offeres a message-encryption service that transforms input text, using various ciphers, and displays the encrypted message to the console. There are 3 encryption methods: "Caesar Cipher," "Symbol Cipher," and "Reverse Cipher."
 
 To run the service:
-$ node message-mixer.js ['caesar' | 'symbol' | 'reverse'] [amount] //[amount] is only required if caesar is selected
-$ node super-encoder.js [encode | decode]
+<br>$ node message-mixer.js ['caesar' | 'symbol' | 'reverse'] [amount] //[amount] is only required if caesar is selected
+<br>$ node super-encoder.js [encode | decode]
 
 Ex.: 
 $ node message-mixer.js caesar 4
