@@ -1,3 +1,3 @@
-This project uses the <a href="https://www.themoviedb.org/">Movie Database</a> API to create an app that will randomly generate a movie title, poster, and description based on user-inputted genre.
+This project uses the Movie Database API to create an app that will randomly generate a movie title, poster, and description based on user-inputted genre.
 
 Code covers API with use of async functions
