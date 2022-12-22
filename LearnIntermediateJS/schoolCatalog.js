@@ -1,4 +1,4 @@
-/* School Catalogue project from Coursera's Learn Intermediate JavaScript course
+/* School Catalogue project from Codecademy's Learn Intermediate JavaScript course
 
 Problem: Create a catalog for the New York City Department of Education to hold quick reference material for each school in the city. */
 
