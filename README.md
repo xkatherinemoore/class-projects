@@ -13,3 +13,4 @@ Various projects available as a portfolio of my coding abilities
 - School Catalog: classes
 - Message Mixer: modules import/export using Node
 - WorkAround Explorer: modules with ES6 syntax
+- Film Finder: Async functions, API
