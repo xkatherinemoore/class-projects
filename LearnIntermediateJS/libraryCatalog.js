@@ -1,4 +1,4 @@
-/* Build a Libray Project from Coursera's Learn Intermediate JavaScript Curriculum 
+/* Build a Libray Project from Codecademy's Learn Intermediate JavaScript Curriculum 
 
 Problem: The library carries 3 different types of media: books, CDs, and movies. Create a way to easily catalog the media using classes and subclasses */
 
