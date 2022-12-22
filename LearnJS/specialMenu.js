@@ -1,4 +1,4 @@
-/* Part of Coursera's Learn JavaScript cirriculum, the goal is to create a function that allows a restaurant to set a meal and price for the Daily Special */
+/* Part of Codecademy's Learn JavaScript cirriculum, the goal is to create a function that allows a restaurant to set a meal and price for the Daily Special */
 
 var menu = {
   _meal: '',
