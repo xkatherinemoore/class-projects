@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Katherine's Inline CSS Page</title>
+    <meta charset = "UTF-8">
+    <meta name="author" content="Katherine Moore">
+    <meta name="keywords" content="Inline CSS, font family, serif, sans serif, monospace font, color method, rgb color, hexadecimal color, color names">
+    <meta name="description" content="Explanation of generic font families with examples and how color is specified using CSS.">
+
+    <!--TABLE BORDERS FOR MAIN SECTION-->
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 5px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header style="text-align:center;">
+        <!--
+        Course: CIS133DA
+        Sections: 19894 
+        Lesson: 5
+        -->
+        <!--If the Courier New font is unavailable on a user's computer, the first-level heading will be rendered in Helvetica. If that isn't available, the default sans-serif font will be used.-->
+        <h1 style="color: steelblue; font-size: xx-large; font-family: Helvetica, Verdana, sans-serif;">Applying Inline CSS</h1>
+
+        <!--The font-weight property can be specified with a keyword value (normal, bold) which applies an absolute weight based on browser-rendering and font, a relative value (bolder, lighter) which changes the weight in relation to the parent element, or a number value (100-900 with 400 being normal weight) which applies an absolute weight-->
+        <p style="font-weight: bolder;">"The value of a college education is not the learning of many facts but the training of the mind to think." -Albert Einstein</p>
+
+<!--        <nav>
+            <a href = "#">Placeholder Link</a>
+        </nav> -->
+    </header>
+    
+
+    <main>
+        <h2 style="color:rgb(93, 92, 97)">Font Families</h2>
+        <p style="font: larger Verdana, Helvetica, sans-serif;">The font family (or typeface) is the name of a specific design of characters. All fonts fall into one of the generic font families that are grouped based on similar characteristics (W3Schools, 2023). It's important to note that fonts are rendered on a web page using the downloaded fonts on a user's computer. For this reason, multiple fonts are typically specified in the font-family property with a generic family last to ensure a similar look.
+            <table style="width: 90%;">
+                <tr>
+                    <th style="width: 20%;">Generic Font Family</th>
+                    <th style="width: 40%;">Characteristics</th>
+                    <th style="width: 30%;">Example Fonts</th>
+                </tr>
+                <tr>
+                    <td>Serif</td>
+                    <td>Fonts are characterized by flags (serifs) on the ends of letters</td>
+                    <td><span style="font-family: 'Times New Roman';">Times New Roman</span><br>
+                        <span style="font-family: Georgia;">Georgia</span><br>
+                        <span style="font-family: Garamond;">Garamond</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sans-serif</td>
+                    <td>Literally means without serifs; these fonts are characterized by the lack of flags (serifs)</td>
+                    <td><span style="font-family: Arial;">Arial</span><br>
+                        <span style="font-family: Verdana;">Verdana</span><br>
+                        <span style="font-family: Helvetica;">Helvetica</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Cursive</td>
+                    <td>These fonts resemble handwriting and are more decorative</td>
+                    <td><span style="font-family: 'Brush Script MI';">Brush Script MI</span><br>
+                        <span style="font-family: 'Lucida Handwriting';">Lucida Handwriting</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Fantasy</td>
+                    <td>These fonts are very decorative with stylistic, creative lettering</td>
+                    <td><span style="font-family: Copperplate;">Copperplate</span><br>
+                        <span style="font-family: Papyrus;">Papyrus</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Monospace</td>
+                    <td>All letters take up the same width regardless of letter shape</td>
+                    <td><span style="font-family: 'Courier New';">Courier New</span><br>
+                        <span style="font-family: 'Lucida Console';">Lucida Console</span><br>
+                        <span style="font-family: Monaco;">Monaco</span>
+                    </td>
+                </tr>
+            </table>
+        </p>
+
+        <h2 style="color:#5D5C61">Color Methods</h2>
+        <p style="font: normal 18px 'courier new', 'lucida console', monospace;">There are three main color methods to apply color to a web page: RGB, hexadecimal, and the color name.
+            <table style="width: 90%;">
+                <tr>
+                    <th style="width: 10%">Color Method</th>
+                    <th style="width: 40%">Explanation</th>
+                    <th style="width: 20%">Format</th>
+                    <th style="width: 20%">Example</th>
+                </tr>
+                <tr>
+                    <td>RGB color</td>
+                    <td>Color is written in a format that utilizes the red, green, and blue color channels which are then blended to create a single color. Color channels can range from 0-255. </td>
+                    <td>color: rgb(red_value,green_value,blue_value);</td>
+                    <td><span style="color: rgb(35,221,69);">This text uses the CSS code "color: rgb(35, 221, 69);".</span></td>
+                </tr>
+                <tr>
+                    <td>Hexadecimal color</td>
+                    <td>Color is written in hexadecimal format (0-9, A-F). Hexadecimal numbers represent the color channels red (R), green (G), and blue (B) in the format RRGGBB. In CSS, it must be preceded by a hash/pound sign (#).</td>
+                    <td>color: #RRGGBB;</td>
+                    <td><span style="color: #883b46;">This text uses the CSS code "color: #883b46;".</span></td>
+                </tr>
+                <tr>
+                    <td>Color names</td>
+                    <td>Color is written using a CSS accepted (Web-safe) color name. There are significantly fewer (only 140) accepted color names than there are RGB/Hexadecimal colors. A list of accepted color names can be found <a href="https://www.w3.org/wiki/CSS/Properties/color/keywords#Extended_colors">here</a>. Note that if a color name is more than one word, spaces are removed.</td>
+                    <td>color: color_name;</td>
+                    <td><span style="color: slateblue;">This text is slateblue.</span></td>
+                </tr>
+            </table>
+        </p>
+        <p>Source: 
+            <ol>
+                <li>Rio Salado College. Lesson 5: Introduction to CSS. (2019). Retrieved from https://riosalado.coursearc.com/content/cis133da-in-v11/lesson-5-introduction-css/summarizing-your-learning</li>
+                <li>W3Schools (2023). CSS font-family Property. Retrieved April 11, 2023, from https://www.w3schools.com/cssref/pr_font_font-family.php</li>
+            </ol> </p>
+    </main>
+    
+    <footer style="text-align: right;">
+        <p><b>Phone: (123) 456 - 7890 <br>
+        Email: KAT2341012@maricopa.edu <br></b></p>
+        
+        <p><small>Copyright &copy; 2023 by Katherine Moore</small></p>
+    </footer>
+
+</body>
+
+</html>
