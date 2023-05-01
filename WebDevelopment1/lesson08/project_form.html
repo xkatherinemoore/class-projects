@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Submit Project Request</title>
+    <meta charset = "UTF-8">
+    <meta name="author" content="Katherine Moore">
+    <meta name="keywords" content="web development, project form, work order, SEO, graphic design">
+    <meta name="description" content="Have Web Development needs? Complete the form and we'll get back to you soon!">
+
+    <link rel="stylesheet" href="css/default_style.css">
+</head>
+
+
+<body>
+    <div id="wrapper">
+    <header>
+        <!--
+        Course: CIS133DA
+        Sections: 19894 
+        Lesson: 8
+        -->
+        <h1>Project Request</h1>
+        <p>"The value of a college education is not the learning of many facts but the training of the mind to think." -Albert Einstein</p>
+
+        <nav>
+            <a href = "project_form.html">Project Request</a>
+            <a href = "computer_info.html">Computer Information</a>
+            <div class="dropdownmenu">
+                <span>Previous Lessons</span>
+                <div class="dropdownlinks">
+                    <a href = "../lesson03/template.html">Lesson 3 - Template</a>
+                    <a href = "../lesson04/template.html">Lesson 4 - Template</a>
+                    <a href = "../lesson04/poetry.html">Lesson 4 - Poetry</a>
+                    <a href = "../lesson05/inline_css.html">Lesson 5 - Inline CSS</a>
+                    <a href = "../lesson06/social_media.html">Lesson 6 - Social Media</a>
+                    <a href = "../lesson07/template.html">Lesson 7 - Template</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+
+    <main>
+        <h2>Submission Form</h2>
+        <p>Please complete and submit the following form, and we will get back to you.</p>
+
+        <form action="https://secure.riosalado.edu/cis-course-resources/postscript.aspx" method="post">
+            <h3>Contact Information</h3>
+            <label for="firstname">First Name:</label><input type="text" name="firstname" id="firstname">
+            <label for="lastname">Last Name:</label><input type="text" name="lastname" id="lastname">
+            <label for="email">Email:</label><input type="email" name="email" id="email">
+            <label for="phonenumber">Phone Number:</label><input type="tel" name="phonenumber" id="phonenumber">
+
+            <p>Choose your preferred contact method:</p>
+            <label><input type="checkbox" name="contact_method1" value="phone">Phone</label>
+            <label><input type="checkbox" name="contact_method2" value="sms">Text Message</label>
+            <label><input type="checkbox" name="contact_method3" value="email">Email</label>
+
+
+            <h3>Project Type</h3>
+            <p>Please choose a project type from the list below:</p>
+            <label><input type="radio" name="project_type" value="graphic_design"><b>Graphic Design</b> - includes items like logos, banners, etc.</label>
+            <label><input type="radio" name="project_type" value="new_website"><b>New Web Design</b> - starting a brand-new web site with no existing content</label>
+            <label><input type="radio" name="project_type" value="update_website"><b>Update Web Design</b> - have an existing website and wish to update the look and content</label>
+            <label><input type="radio" name="project_type" value="seo_consultation"><b>SEO Consultation</b> - need help improving traffic to a site</label>
+
+            
+            <h3>Project Details</h3>
+            <label for="comp_date">Desired Project Completion Date:</label><input type="date" name="comp_date" id="comp_date">
+            <label for="project_details">Please describe the project:</label><textarea id="project_details" name="project_details" style="width: 500px; height: 200px;"></textarea> <br>
+            
+            <button type="submit">Submit Form</button>
+            <button type="reset">Clear Form</button>
+
+        </form>
+    </main>
+    
+    <footer>
+        <p><b>Phone: (123) 456 - 7890 <br>
+        Email: KAT2341012@maricopa.edu <br></b></p>
+        
+        <p><small>Copyright &copy; 2023 by Katherine Moore</small></p>
+    </footer>
+    </div>
+</body>
+
+</html>
