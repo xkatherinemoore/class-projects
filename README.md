@@ -16,7 +16,7 @@ Various projects available as a portfolio of my coding abilities
 - Film Finder: Async functions, API
 
 <b>Internet/Web Development Level 1 [xkatherinemoore/MyWork/WebDevelopment1]</b>
-CIS 133 DA @ Rio Salado College, Spring 2023
+<br>CIS 133 DA @ Rio Salado College, Spring 2023
 - Lesson 3: Introduction to HTML with basic HTML elements
     - Basic HTML template (without metadata)
 - Lesson 4: Structuring HTML Documents with header, main, and footer elements
