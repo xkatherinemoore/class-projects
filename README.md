@@ -33,6 +33,8 @@ Various projects available as a portfolio of my coding abilities
     - Project Form (HTML form)
     - Computer Info (webpage with table)
 - Lesson 9: CSS At-Rules and Media Queries
+    - template.html (updated CSS for responsive web design)
+    - NASA Images webpage
 - Lesson 10: Introduction to Web Scripting
 - Lesson 11: Web Accessibility
 - Lesson 12: Planning a Website
