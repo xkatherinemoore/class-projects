@@ -1,0 +1,154 @@
+/* Stylesheet used when device viewport width is less than 450 px */
+
+/*  
+Author: Katherine Moore
+Course: CIS 133 DA
+Section: 19894
+*/
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #3C486B;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: auto;
+    margin: auto;
+    background-color: #F0F0F0;
+    position: relative;
+}
+
+/*HEADER*/
+/* Changes included changing height to auto, and adjusting padding to better fit the smaller screen. The background image was removed and replaced with a background color. Font size specifications were removed. My main goal with changes was to allow for as much versatility as possible for different sized screens which is why I allowed for default browser font-sizing (based on HTML elements) and set height to auto (which will change the height based on font size/text wrapping). A border was added around each individual link in the dropdown menu (Previous Lessons) to make each link clearer since the hover feature for links is not supported with touch screens.
+
+It should be noted that because I designed this with versatility in mind, the mobile_style.css and tablet_style.css are almost identical. However, this would likely not be the case if more content was added to the main section (such as pictures) */
+
+header {
+    background-color: #3C486B;
+    box-sizing: content-box;
+    height: auto;
+    padding: 0;
+    text-align: center;
+    color: #F9D949;
+}
+
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px 0px 5px 0px;
+    margin: 0px;
+}
+
+header p {
+    font-style: italic;
+    padding: 5px 0px;
+    margin: 0px;
+}
+
+nav {
+    background-color: #A6D0DD;
+    padding: 15px 0px;
+    height: auto; 
+}
+
+/* NAVIGATION */
+nav a, .dropdownmenu span {
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #3C486B;
+}
+
+.dropdownmenu {
+    display: inline-block;
+    position: relative;
+    height: auto;
+}
+
+.dropdownlinks a {
+    display: block;
+    padding: 8px;
+    text-align: left;
+    border: thin solid #3C486B;
+}
+
+.dropdownlinks {
+    position: absolute;
+    top: 34px;
+    width: auto;
+    background-color: #F0F0F0;
+    border: solid #3C486B thin;
+    display: none;
+}
+
+nav a:hover, .dropdownmenu span:hover, .dropdownlinks a:hover {
+    background-color: #3C486B;
+    color: #F9D949;
+}
+
+.dropdownmenu:hover .dropdownlinks {
+    display:block;
+    z-index: 9; /* Displays dropdown menu on top of main content */
+}
+
+/* MAIN */
+main {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* IMAGE CARDS */
+.card {
+    display: block;
+    background-color: #F0F0F0; 
+    border: 5px double #3C486B;
+    width: 100%;
+    height: 100%;
+    margin: 10px auto;
+
+}
+
+.card h2 {
+    background-color: #A6D0DD;
+    font: bold #3C486B Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.card p {
+    text-align: left;
+    padding: 10px;
+    margin: 0;
+}
+
+.card .image_caption {
+    font-size: 10px;
+    font-style: italic;
+    text-align: center;
+}
+
+.card img {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 5px 0;
+}
+
+
+/* FOOTER */
+/* Changed the background color to separate sections */ 
+footer {
+    text-align: center;
+    background-color: #A6D0DD;
+    color: #3C486B;
+    padding: 8px 0;
+}
+
+footer p {
+    padding-top: 8px;
+    margin: 0;
+}
