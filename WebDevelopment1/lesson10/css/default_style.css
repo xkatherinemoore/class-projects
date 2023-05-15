@@ -1,0 +1,145 @@
+/* Stylesheet used when device viewport width is greater than 900px. */
+
+/*  
+Author: Katherine Moore
+Course: CIS 133 DA
+Section: 19894
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #3C486B;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 900px;
+    margin: auto;
+    background-color: #F0F0F0;
+    position: relative;
+}
+
+/*HEADER*/
+header {
+    background-image: url(../images/CIS133DA_header_bkgd.jpg);
+    box-sizing: content-box;
+    height: 200px;
+    padding: 0;
+    text-align: center;
+    color: #F9D949;
+}
+
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+    padding: 25px 0px;
+    margin: 0px;
+    height: 50px; 
+}
+
+header p {
+    font-style: italic;
+    padding: 10px 0px;
+    margin: 0px;
+    height: 30px; 
+}
+
+nav {
+    background-color: #A6D0DD;
+    padding: 15px 0px;
+    height: 20px; 
+}
+
+/* NAVIGATION */
+nav a, .dropdownmenu span {
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #3C486B;
+}
+
+.dropdownmenu {
+    display: inline-block;
+    position: relative;
+    height: 34px;
+}
+
+.dropdownlinks a {
+    display: block;
+    padding: 8px;
+    text-align: left;
+}
+
+.dropdownlinks {
+    position: absolute;
+    top: 34px;
+    width: 180px;
+    background-color: #F0F0F0;
+    border: solid #3C486B thin;
+    display: none;
+}
+
+nav a:hover, .dropdownmenu span:hover, .dropdownlinks a:hover {
+    background-color: #3C486B;
+    color: #F9D949;
+}
+
+.dropdownmenu:hover .dropdownlinks {
+    display:block;
+    z-index: 9; /* Displays dropdown menu over main page content */
+}
+
+/* MAIN */
+main {
+    padding: 10px;
+}
+
+/* FORMS */
+label {
+    display: block;
+    margin: 5px;
+    margin-left: 15px;
+}
+
+input, textarea {
+    margin-left: 15px;
+}
+
+#firstname, #lastname, #email, #phonenumber {
+    margin-left: 45px;
+}
+
+button {
+    margin: 10px 5px;
+    padding: 5px 10px;
+}
+
+button:hover {
+    background-color: #3C486B;
+    color: #F9D949;
+} 
+
+/* RESET MESSAGE */
+#resetmessage {
+    display: none;
+    background-color: #3C486B;
+    color: #F9D949;
+    width: 80%;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background-color: #3C486B;
+    color: #F0F0F0;
+    padding: 8px 0;
+}
+
+footer p {
+    padding-top: 8px;
+    margin: 0;
+}
