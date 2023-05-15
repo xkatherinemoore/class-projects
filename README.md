@@ -36,6 +36,7 @@ Various projects available as a portfolio of my coding abilities
     - template.html (updated CSS for responsive web design)
     - NASA Images webpage
 - Lesson 10: Introduction to Web Scripting
+    - Project Form updated to include JS functionality
 - Lesson 11: Web Accessibility
 - Lesson 12: Planning a Website
 - Lesson 13: Final Project
