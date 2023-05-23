@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>KAT2341012 - Project Review</title>
+    <meta charset = "UTF-8">
+    <meta name="author" content="Katherine Moore">
+    <meta name="keywords" content="accessibility, corrections, HTML, CSS, CIS133DA">
+    <meta name="description" content="Corrections made to improve the accessibility of the accessibility.html document">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" media="(min-width: 900px)" href="css/default_style.css">
+    <link rel="stylesheet" media="(max-width: 450px)" href="css/mobile_style.css">
+    <link rel="stylesheet" media="(min-width: 451px) and (max-width: 899px)" href="css/tablet_style.css">
+</head>
+
+
+<body>
+    <div id="wrapper">
+    <header>
+        <!--
+        Course: CIS133DA
+        Sections: 19894 
+        Lesson: 11
+        -->
+        <h1>Accessibility Page Corrections</h1>
+        <p>"The value of a college education is not the learning of many facts but the training of the mind to think." <br>-Albert Einstein</p>
+
+        <nav>
+            <a href = "accessibility.html">Accessibility</a>
+            <div class="dropdownmenu">
+                <span>Previous Lessons</span>
+                <div class="dropdownlinks">
+                    <a href = "../lesson03/template.html">Lesson 3 - Template</a>
+                    <a href = "../lesson04/template.html">Lesson 4 - Template</a>
+                    <a href = "../lesson04/poetry.html">Lesson 4 - Poetry</a>
+                    <a href = "../lesson05/inline_css.html">Lesson 5 - Inline CSS</a>
+                    <a href = "../lesson06/social_media.html">Lesson 6 - Social Media</a>
+                    <a href = "../lesson07/template.html">Lesson 7 - Template</a>
+                    <a href = "../lesson08/project_form.html">Lesson 8 - Project Form</a>
+                    <a href = "../lesson08/computer_info.html">Lesson 8 - Computer Info</a>
+                    <a href = "../lesson09/template.html">Lesson 9 - Template</a>
+                    <a href = "../lesson09/nasa.html">Lesson 9 - Nasa Images</a>
+                    <a href = "../lesson10/project_form.html">Lesson 10 - Project Form</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+
+    <main>
+        <h2>Review Summary</h2>
+        <p>This page contains the infomration regarding the review that was conducted on the Accessibility page. It is broken up into two sections: HTML Issues and Corrections, and Accessibility Issues and Corrections. </p>
+
+        <h3>HTML Issues and Corrections</h3>
+        <table id="HTML_issues">
+            
+            <tr>
+                <th class="Location">Location</th>
+                <th class="Error">Error</th>
+                <th class="Correction">Correction</th>
+                <th class="Description">Description</th>
+            </tr>
+            
+            
+            <tr>
+                <td class="Location">Line 4</td>
+                <td class="Error">&lt;title&gt;&lt;/title&gt;</td>
+                <td class="Correction">&lt;title&gt;Accessibility&lt;/title&gt;</td>
+                <td class="Description">Added a title.</td>
+            </tr>
+            <tr>
+                <td class="Location">Line 6</td>
+                <td class="Error">&lt;meta...&gt;</td>
+                <td class="Correction">&lt;meta name="keywords" ...&gt;</td>
+                <td class="Description">Added meta information for keywords, description, and viewport. <i>(Added to end of Line 6 to keep line numbers consistent with original document)</i> </td>
+            </tr>
+            <tr>
+                <td class="Location">Line 27</td>
+                <td class="Error">&lt;img src="access-image.jpg" ... &gt;</td>
+                <td class="Correction">&lt;img src="images/access-image.jpg" ... &gt;</td>
+                <td class="Description">Image source incorrect. Needed to link to images folder.</td>
+            </tr>
+            <tr>
+                <td class="Location">Line 30</td>
+                <td class="Error">&lt;h3&gt;Web Users and Web Accessibility&lt;/h5&gt;</td>
+                <td class="Correction">&lt;h3&gt;Web Users and Web Accessibility&lt;/h3&gt;</td>
+                <td class="Description">Changed &lt;/h5&gt; to &lt;/h3&gt; to match opening tag.</td>
+            </tr>
+            <tr>
+                <td class="Location">Line 35</td>
+                <td class="Error">&lt;td&gt;Common Barriers&lt;/th&gt;</td>
+                <td class="Correction">&lt;th&gt;Common Barriers&lt;/th&gt;</td>
+                <td class="Description">Changed opening tag to &lt;th&gt; to match other tags in row.</td>
+            </tr>
+            <tr>
+                <td class="Location">Line 142</td>
+                <td class="Error">&lt;!- Citation for image used on the page -&gt;</td>
+                <td class="Correction">&lt;!-- Citation for image used on the page --&gt;</td>
+                <td class="Description">Fixed comment.</td>
+            </tr>
+            
+            </table>
+
+        <h3>Accessibility Issues and Corrections</h3>
+        <table id="access_issues">
+            
+            <tr>
+                <th class="Location">Location</th>
+                <th class="Error">Error</th>
+                <th class="Correction">Correction</th>
+                <th class="Description">Description</th>
+            </tr>
+            
+            <tr>
+                <th colspan="4">HTML Corrections</th>
+            </tr>
+            
+            <tr>
+                <td class="Location">Line 2</td>
+                <td class="Error">&lt;html&gt;</td>
+                <td class="Correction">&lt;html lang="en"&gt;</td>
+                <td class="Description">Added a language for the webpage.</td>
+            </tr>
+            <tr>
+                
+                <td class="Location">Line 27</td>
+                <td class="Error">&lt;img src="images/access-image.jpg" ... &gt;</td>
+                <td class="Correction">&lt;img src="images/access-image.jpg" alt="Tiles with an assortment of disability icons." ... &gt;</td>
+                <td class="Description">Added alt text to the image for people unable to view it.</td>
+            </tr>
+            <tr>
+                <td class="Location">Line 103</td>
+                <td class="Error">&lt;h1&gt;Survey&lt;/h1&gt;</td>
+                <td class="Correction">&lt;h2&gt;Survey&lt;/h2&gt;</td>
+                <td class="Description">Changed from first level heading to second level to fit page layout</td>
+            </tr>
+            <tr>
+                
+                <td class="Location">Line 108 - 136</td>
+                <td class="Error">&lt;p&gt;<i>QUESTION</i>&lt;p&gt; <i>INPUT SET</i></td>
+                <td class="Correction">&lt;fieldset&gt;<i>EACH QUESTION/INPUT SET</i>&lt;fieldset&gt;</td>
+                <td class="Description">Applied fieldset element around each question/input set within the form.</td>
+            </tr>
+            <tr>
+                <td class="Location">Line 108 - 136</td>
+                <td class="Error">&lt;p&gt;<i>EACH FORM QUESTION</i>&lt;p&gt;</td>
+                <td class="Correction">&lt;legend&gt;<i>EACH FORM QUESTION</i>&lt;legend&gt;</td>
+                <td class="Description">Replaced the paragraph elements with legend elements for all questions in the form.</td>
+            </tr>
+            <tr>
+                
+                <td class="Location">Line 108 - 136</td>
+                <td class="Error">&lt;input&gt;...&lt;/input&gt; <i>ANSWER</i></td>
+                <td class="Correction">&lt;input&gt;...&lt;/input&gt; &lt;/label&gt;<i>ANSWER</i>&lt;/label&gt;</td>
+                <td class="Description">Added label elements to all user inputs</td>
+            </tr>
+            <tr>
+                <td class="Location">Line 135</td>
+                <td class="Error">&lt;input type="submit" value="Submit"&gt;</td>
+                <td class="Correction">&lt;button type="submit"&gt;Submit&lt;/button&gt;</td>
+                <td class="Description">Changed submit input to button</td>
+            </tr>
+            
+            
+            <tr>
+                <th colspan="4">CSS Corrections</th>
+            </tr>
+            
+
+            <tr>
+                <td class="Location">Line 16</td>
+                <td class="Error">font-size:9px;</td>
+                <td class="Correction">font-size:16px;</td>
+                <td class="Description">Increased body element font size to 16px</td>
+            </tr>
+            <tr>
+                
+                <td class="Location">Line 42</td>
+                <td class="Error">font-size:9px;</td>
+                <td class="Correction">font-size:24px;</td>
+                <td class="Description">Increased nav link font size to 24px</td>
+            </tr>
+            <tr>
+                <td class="Location">Line 14</td>
+                <td class="Error">background-color:#7700DB;</td>
+                <td class="Correction">background-color:#3C486B;</td>
+                <td class="Description">Changed background color to dark blue</td>
+            </tr>
+            <tr>                
+                <td class="Location">Line 17</td>
+                <td class="Error">color:#0CB0C6;</td>
+                <td class="Correction">color:#F0F0F0;</td>
+                <td>Changed font color to light gray to increase contrast</td>
+            </tr>
+            <tr>
+                <td class="Location">Line 39</td>
+                <td class="Error">padding:2px;</td>
+                <td class="Correction">padding:15px;</td>
+                <td class="Description">Increased padding to make nav links larger and easier to read</td>
+            </tr>
+            <tr>
+                <td class="Location">Line 42-43</td>
+                <td class="Error">background-color:#FFFF00; color:#9D85FF;</td>
+                <td class="Correction">background-color:#F0F0F0; color:#3C486B;</td>
+                <td class="Description">Changed background color and text color to match webpage/make more neutral color</td>
+            </tr>
+            <tr>
+                <td class="Location">Line 29-30</td>
+                <td class="Error">background-color:#7700DB; color:#0CB0C6; (inherited from body element)</td>
+                <td class="Correction">background-color:#F0F0F0; color:#3C486B;</td>
+                <td class="Description">Changed background color and text color to match webpage/make more neutral color</td>
+            </tr>
+            <tr>
+                <td class="Location">Line 27</td>
+                <td class="Error">padding: 30px 0px;</td>
+                <td class="Correction">padding:30px;</td>
+                <td class="Description">Increased right/left padding to make text easier to read</td>
+            </tr>
+            <tr>
+                <td class="Location">Line 48-51</td>
+                <td class="Error">N/A</td>
+                <td class="Correction">nav a:hover {text-decoration: underline; background-color: #F9D949;}</td>
+                <td class="Description">Added a visual hover indication to nav link</td>
+            </tr>
+            <tr>
+                <td class="Location">Line 57-60</td>
+                <td class="Error">table, th, td { border:1px solid #FFF; background-color:#FFFF00; color:#9D85FF; ...}</td>
+                <td class="Correction">table, th, td { border:1px solid #3C486B; background-color:#F0F0F0; color:#3C486B; ...}</td>
+                <td class="Description">Changed background color, border color, and font color for table</td>
+            </tr>
+            <tr>
+                <td class="Location">Line 64-67</td>
+                <td class="Error">th { background-color:#6B6B00; color:#9D85FF;}</td>
+                <td class="Correction">th { background-color:#3C486B; color:#F0F0F0;}</td>
+                <td class="Description">Adjusted table header background color and font for better contrast.</td>
+            </tr>
+            
+        </table>
+
+    </main>
+    
+    <footer>
+        <p><b>Phone: (123) 456 - 7890 <br>
+        Email: KAT2341012@maricopa.edu <br></b></p>
+        
+        <p><small>Copyright &copy; 2023 by Katherine Moore</small></p>
+    </footer>
+    </div>
+</body>
+
+</html>

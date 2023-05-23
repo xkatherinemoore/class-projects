@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Accessibility</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Katherine Moore"><meta name="keywords" content="accessibility, statement, inclusive, disability, barriers"><meta name="description" content="Our Accessibility Statement as well as a look at common barriers that Web Users with disibilities may face and how to combat them."><meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/accessibility.css" rel="stylesheet">
+</head>
+    <body>
+        <!--
+        Course: CIS133DA
+        Sections: 19894 
+        Lesson: 11
+        -->
+        <header>
+            <h1>Accessibility Page</h1>
+            <nav>
+                <a href="index.html">Home</a> 
+                <a href="accessibility.html">Accessibility</a>
+            </nav>
+        </header>
+        
+        <main>
+        <h2>Our Commitment to Accessibility</h2>
+        <p>Accessibility means available to all. We strive to make our work accessible to all individuals and to make that access equal in both content and impact, regardless of technology used. We view the internet as a place for inclusion, allowing for equal access and contribution regardless of race, gender, religion, national origin, age, disibility, or sexual orientation. By creating an environment that fosters inclusiveness, we strive to generate the best perspecitives and insights to create a path to further innovation.</p>
+        
+        <img src="images/access-image.jpg" alt="Tiles with an assortment of disability icons.">
+        <p class="caption" >By <a href="https://pixabay.com/en/accessibility-disability-1682903/">Renma</a></p>
+        
+        <h3>Web Users and Web Accessibility</h3>
+            <table>
+                <tr>
+                    <th>Disability</th>
+                    <th>Description</th>
+                    <th>Common Barriers</th>
+                    <th>Accessibility Principles to Apply</th>
+                </tr>
+                <tr>
+                    <td>Auditory</td>
+                    <td>Auditory disabilities relate to a user's ability to hear. They include variying levels of hearing loss in one or both ears. Auditory disabilities can also relate to a person's ability to differentiate sound, such as filtering out background noise to hear what someone is saying.</td>
+                    <td>For audio content such as videos, music, etc.:
+                        <ul>
+                            <li>Lack of captions/transcripts</li>
+                            <li>Inability to control volume, playback, replay</li>
+                            <li>Inability to adjust text size/colors for captions</li> 
+                            <li>Programs that rely on user voice input only</li> 
+                            <li>Lack of sign language.</li>
+                    </ul></td>
+                    <td>Perceivable - Provide captions/transcripts for audio and video content. Ensure that all audio/video content has the option to adjust the volume as well as stop/pause/replay options.</td>
+                </tr>
+                <tr>
+                    <td>Cognitive and Neurological</td>
+                    <td>Cognitive/Neurological disabilities are disabilities that affect any part of the nervous system as well as behavioral and mental health disorders. These disabilities affect how users see, hear, move, speak, and understand information.</td>
+                    <td>Barriers differ based on the type of disability. Examples include:
+                        <ul>
+                            <li>Complex page layouts that are difficult to use</li>
+                            <li>Information that is difficult to understand, written in complex language</li>
+                            <li>Moving content or audio that cannot be turned off</li>
+                            <li>Visual page designs that cannot be adapted using web browser controls or custom style sheets</li>
+                        </ul>
+                    </td>
+                    <td>Understandable - Ensure that content is not overly complex and provide alternative methods to the same information (e.g. a written summary of a video)</td>
+                </tr>
+                <tr>
+                    <td>Physical</td>
+                    <td>Physical disabilities are those that affect the users ability to control movement or limit their movement. Examples include involuntary movements like tremors, pain from movement like arthritis, and amputation/missing limbs.</td>
+                    <td>Barriers often relate to not providing alternatives to standard mouse-click interactions and include:
+                        <ul>
+                            <li>Lack of full keyboard support (navigable without a mouse)</li>
+                            <li>Insufficient time to complete tasks before timeout</li>
+                            <li>Complicated navigation mechanisms and page functions</li>
+                        </ul>
+                    </td>
+                    <td>Operable - Provide the functionality to operate the website with only a keyboard as well as the abilitiy to operate the website with other devices that are not a keyboard.</td>
+                </tr>
+                <tr>
+                    <td>Speech</td>
+                    <td>Speech disabilities affect an individual's ability to produce speech that is understandable to others or voice recognition software and include loundess and clarity of the speech.</td>
+                    <td><ul>
+                        <li>Web services that rely on voice-only interaction</li>
+                        <li>Websites that offer phone numbers as the only means of contact.</li>
+                    </ul></td>
+                    <td>Operable - Avoid speech-only interaction and provide contact options that do not require a telephone call.</td>
+                </tr>
+                <tr>
+                    <td>Visual</td>
+                    <td>Visual disabilities affect an individual's sight. They can include difficuty seeing in general, difficulty differentiating or viewing colors, and issues concerning light.</td>
+                    <td>A lot of web content is visual, so the barriers faced by those with visual disabilities can be extensive and include:
+                        <ul>
+                            <li>Lack of decriptions (text alternatives) for images and videos</li>
+                            <li>Text, images, and page layouts that cannot be resized</li>
+                            <li>Lack of clear visual clues such as links that are only identifiable by color</li>
+                            <li>Insufficient contrast between background and foreground colors</li>
+                            <li>Lack of full keyboard support</li>
+                            <li>Overly complicated or poorly structured content</li>
+                        </ul>
+                    </td>
+                    <td>Perceivable - Order content in a logical way and use high color contrasts. Avoid color-only visual cues.</td>
+                </tr>
+            </table>
+        <p class="caption">Information in table from W3C's <a href="https://www.w3.org/WAI/people-use-web/abilities-barriers/">Web Availability Iniative</a></p>
+        
+        <h2>Survey</h2>
+        <form name="myForm" id="test" action="https://secure.riosalado.edu/cis-course-resources/postscript.aspx" method="post"> 
+            <p>We'd love to hear from you regarding the Accessibility of our website. If you'd like, please take this brief survey and leave us your name and email address if you'd like us to get back in contact with you.</p>
+            
+            <h3>Feedback Type</h3>
+            <fieldset>    
+                <legend>What type of feedback would you like to share? <em>Please select all that apply</em>:</legend>
+                <input type="checkbox" name="Type" value="Suggestion" id="suggestion"> <label for="suggestion">Suggestion on how to improve Accessibility on the website</label><br>
+                <input type="checkbox" name="Type" value="Issue" id="issue"> <label for="issue">Issue with the Accessibility of the website</label><br>
+                <input type="checkbox" name="Type" value="Comment" id="comment"> <label for="comment">Share a comment about how our Accessibility features helped you or others</label><br>
+            </fieldset>
+
+            <h3>Satisfaction</h3>
+            <fieldset>
+                <legend>How satisfied are you with the Accessibility features we provide?</legend>
+                <input type="radio" name="Satisfaction" value="5 - Very Satisfied" id="satisfaction_five"> <label for="satisfaction_five">5 - Very Satisfied</label><br>
+                <input type="radio" name="Satisfaction" value="4" id="satisfaction_four"> <label for="satisfaction_four">4</label><br>
+                <input type="radio" name="Satisfaction" value="3" id="satisfaction_three"> <label for="satisfaction_three">3</label><br>
+                <input type="radio" name="Satisfaction" value="2" id="satisfaction_two"> <label for="satisfaction_two">2</label><br>
+                <input type="radio" name="Satisfaction" value="1" id="satisfaction_one"> <label for="satisfaction_one">1</label><br>
+                <input type="radio" name="Satisfaction" value="0 - Very Dissatisfied" id="satisfaction_zero"> <label for="satisfaction_zero">0 - Very Dissatisfied</label><br>
+            </fieldset>
+
+            <h3>Improvements</h3>
+            <label for="feedback">Please enter any feedback you have to provide you with a better service:</label><br>    
+            <textarea name="Feedback" id="feedback" rows="5">Feedback goes here.</textarea>
+            <br>
+            
+            <h3>Contact Details (Optional)</h3>        
+                <label for="firstname">Name:</label> <input type="text" name="FirstName" id="firstname"><br>
+                <label for="emailaddress">Email Address:</label> <input type="email" name="EmailAddress" id="emailaddress"><br>
+            
+            <button type="submit">Submit</button>             
+        </form>
+        </main>
+        <footer>
+            <!-- Citation for image used on the page -->
+            <p class="caption">Renma, Cris (2016). [Untitled photograph of different disabilities]. Retrieved from https://pixabay.com/en/accessibility-disability-1682903/</p>
+        </footer>
+    </body>
+</html>
