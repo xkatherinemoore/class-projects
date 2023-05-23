@@ -38,5 +38,7 @@ Various projects available as a portfolio of my coding abilities
 - Lesson 10: Introduction to Web Scripting
     - Project Form updated to include JS functionality
 - Lesson 11: Web Accessibility
+    - Accessibility webpage was editted to meet WCAG
+    - Homepage displays a record of changes made to accessibility.html
 - Lesson 12: Planning a Website
 - Lesson 13: Final Project
