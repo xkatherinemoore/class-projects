@@ -1,0 +1,287 @@
+/* Tablet Style Sheet 
+Collapses header navigation */
+
+* {
+    box-sizing: border-box;
+    position: relative;
+}
+
+body {
+    background-color: #4682B4;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    width: 100%;
+    margin: auto;
+    padding: 50px;
+}
+
+/* HEADER FORMATTING */
+header {
+    background-image: url(../images/trebleclef.png);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: left center;
+    background-size: auto 200px;
+    background-color: #FFF;
+    
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 200px;
+}
+
+h1 {
+    font-family: Copperplate, Papyrus, Fantasy;
+    font-size: 40px;
+    text-transform: uppercase;
+    float: left;
+    left: 100px;
+    width: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+header nav a {
+    font-size: 25px;
+    flex:content;
+    flex-wrap:wrap;
+}
+
+.navigation {
+    display: none;
+    position: fixed;
+    top: 5px;
+    background-color: #FFF;
+    z-index: 9;
+}
+
+/* Used to highlight page title in nav header */
+#current {
+    text-decoration: underline;
+    background-color: #4682B4;
+    color: #FFF;
+    width:fit-content;
+    text-align: center;
+    margin: auto;
+
+}
+
+/* MAIN FORMATTING */
+main {
+    background-color: #FFF;
+    color: #000;
+    padding: 20px;
+    margin: 10px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+img {
+    display: inline-block;
+    position: relative;
+    height: 300px;
+    margin: 10px;
+}
+
+.caption {
+    display: inline-block;
+    margin: auto;
+    font-size: 85%;
+    font-style: italic;
+    font-weight: normal;
+    padding: 5px;
+    color: #000;
+}
+
+.caption a:hover {
+    background-color: #CD5C5C;
+    font-style: italic;
+    color: #FFF;
+}
+
+
+/* VOLUNTEER PAGE */
+.thumbnail {
+    position: relative;
+    float: left;
+    height: 125px;
+    width: 125px;
+    margin: 10px;
+    padding: 10px;
+}
+
+dt {
+    line-height: 1.5;
+    padding: auto;
+    display: inline;
+}
+
+dd {
+    display: block;
+    height: auto;
+    line-height: 1.5;
+    padding: auto;
+    margin-bottom: 10px;
+}
+
+
+#map {
+    border:0; 
+    display: block; 
+    position: relative;
+    margin: 20px auto;
+    width: 95%;
+    height: 750px;
+  }
+
+  /* EDUCATION PAGE */
+  /* TABLE FORMATTING */
+    table, td, th {
+        border: solid 1px #000;
+        border-collapse: collapse;
+        text-align: center;
+        padding: 5px;
+    }
+    
+    td, th {
+        width: 30%;
+    }
+
+    th {
+        background-color:#CD5C5C;
+        color: #FFF;
+    }
+
+
+  /* FORM FORMATTING */
+form, label, input, select {
+    display: block;
+    width: 100%;
+    line-height: 1.5;
+    margin: 5px;
+}
+
+form {
+    border: solid 5px #4682B4;
+    padding: 15px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+
+button {
+    padding: 10px;
+    margin: 25px;
+    background-color: #CD5C5C;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#button_area {
+    text-align: center;
+}
+
+/* FOOTER FORMATTING */
+footer {
+    background-color: #FFF;
+    color: #000;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* LINK FORMATTING */
+header a, footer a {
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    margin: auto 30px;
+    padding: 10px;
+}
+
+header a:hover, footer a:hover {
+    background-color: #CD5C5C;
+    font-style: italic;
+    color: #FFF;
+    text-decoration: underline;
+}
+
+/* ID used to make link look like a "button" which links to a form */
+#contact_school {
+    background-color: #CD5C5C;
+    color: #FFF;
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+#contact_school:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/* INLINE LINKS */
+p a {
+    text-decoration: underline;
+    font-weight: bolder;
+    padding: 5px;
+    color: #000;
+}
+
+p a:hover {
+    background-color: #CD5C5C;
+    font-style: italic;
+    color: #FFF;
+}
+
+
+/* MENU ICON for MOBILE */
+.menu {
+    display: inline-block;
+    z-index: 9;
+    position: fixed;
+    top: 15px;
+    right: 55px;
+    border: solid 2px #000;
+    padding: 2px;
+    fill-opacity: 1.0;
+}
+
+.menu div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.change .navigation {
+    display: block;
+    position: relative;
+    fill-opacity: 1.0;
+    width: 100%;
+    height: auto;
+    background-color: #FFF;
+    z-index: 9;
+}
