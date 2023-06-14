@@ -40,5 +40,6 @@ Various projects available as a portfolio of my coding abilities
 - Lesson 11: Web Accessibility
     - Accessibility webpage was editted to meet WCAG
     - Homepage displays a record of changes made to accessibility.html
-- Lesson 12: Planning a Website
+- Lesson 12: Planning a Website 
 - Lesson 13: Final Project
+    - Webiste with multiple pages, Google Maps API, includes HTML form, mobile/tablet/desktop CSS
