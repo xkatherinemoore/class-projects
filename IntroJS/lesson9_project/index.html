@@ -1,0 +1,135 @@
+<!-- 
+    NAME: Katherine Moore
+    MEID: KAT2341012
+    DATE: 8/7/2023
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lesson 9 Project</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> <!--Bootstrap icons-->
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+    
+<body>
+    <header class="text-center">
+        <h1>Lesson 9 Project</h1>
+        <h2>Katherine Moore</h2>
+    </header>
+    
+    <main>
+        <div class="header-div">
+            <h2 class="text-center">JavaScript Event Types</h2>
+        </div>
+        <div class="container">
+        <div class="card">
+            <h3>1. Load Event</h3>
+            <div id="img-load"></div>
+            <p>This image was added using a load event</p>
+        </div>
+        <div class="card">
+            <h3>2. Click Event</h3>
+            <div id="img-click">
+                <img src="./images/stock-photo-portrait-two-adorable-welsh-corgi.jpg" alt="Two corgis on a couch." />
+                <br />
+                <p class="caption">Nothing like two adorable corgis</p>
+            </div>
+            <p>Click on the picture to change the image</p>
+        </div>
+        <div class="card">
+            <h3>3. Double-click Event</h3>
+            <div id="img-dblclick" class="show">
+                <img src="./images/stock-photo-cows.jpg" alt="Two cows in a field." />
+                <br />
+                <p class="caption">Mooooooooooo!</p>
+            </div>
+            <button id="hidden-btn" class="hide"><i class="bi bi-arrow-clockwise"></i> Bring back the
+                picture!</button>
+            <p>Double-click the image to make it disappear</p>
+        </div>
+        <div class="card">
+            <h3>4. Mouseover Event</h3>
+            <div id="img-mouseover">
+                <img src="./images/stock-photo-man-on-top-of-the.jpg" alt="Man standing on peak of a mountain with arms out." />
+                <br />
+                <p class="caption hide" id="mouseover-caption">I'm on top of the world!!!</p>
+            </div>
+            <p>Hover over the image to display the caption</p>
+        </div>
+        <div class="card">
+            <h3>5. Mouseleave Event</h3>
+            <div id="img-mouseleave">
+                <img src="./images/stock-photo-cropped-view-man-sitting-cafe.jpg" alt="Pretty latte art." />
+                <br />
+                <p class="caption show" id="mouseleave-caption">Nothing like a good cup of coffee...</p>
+            </div>
+            <p>Remove the cursor from the image to hide the caption</p>
+        </div>
+        <div class="card">
+            <h3>6. Scroll Event</h3>
+            <div id="text-scroll">
+                <p>If you scroll...
+                    <br /><br /><br />
+                    <br /><br /><br />
+                    <br /><br /><br />
+                    <br /><br /><br />
+                    <br /><br /><br />
+                </p>
+            </div>
+            <div id="scroll-output"></div>
+
+        </div>
+        <div class="card">
+            <h3>7. Input Event</h3>
+            <label for="inputName">Enter your name:</label>
+            <input type="text" name="inputName" id="inputName">
+            <div id="text-output"></div>
+        </div>
+        <div class="card">
+            <h3>8. Focusout Event</h3>
+            <label for="inputEmail">Enter your email:</label>
+            <input type="text" name="inputEmail" id="inputEmail"><span id="emailValidation"></span>
+        </div>            
+        <div class="card">
+            <h3>9. Change Event</h3>
+            <label for="bg-color">Choose a color: </label>
+            <select id="bg-color" name="bg-color">
+                <option value="darkblue" style="background-color: darkblue; color: white;">Dark Blue</option>
+                <option value="crimson" style="background-color: crimson; color: white;">Crimson</option>
+                <option value="coral" style="background-color: coral; color: white;">Coral</option>
+                <option value="gray" style="background-color: gray; color: black;">Gray</option>
+                <option value="mediumorchid" style="background-color: mediumorchid; color: white;">Medium Orchid</option>
+            </select>
+        </div>        
+        <div class="card">
+            <h3>10. Submit Event</h3>
+            <form id="submitForm">
+                <h4>Choose an Emoji:</h4>
+                <input type="radio" value="smile" id="emoji-smile" name="bgImage"><label for="emoji-smile"><i class="bi bi-emoji-smile"></i></label>
+                <input type="radio" value="wink" id="emoji-wink" name="bgImage"><label for="emoji-wink"><i class="bi bi-emoji-wink"></i></label>
+                <input type="radio" value="kiss" id="emoji-kiss" name="bgImage"><label for="emoji-kiss"><i class="bi bi-emoji-kiss"></i></label>
+                <input type="radio" value="sunglasses" id="emoji-sunglasses" name="bgImage"><label for="emoji-sunglasses"><i class="bi bi-emoji-sunglasses"></i></label>
+                <input type="radio" value="dizzy" id="emoji-dizzy" name="bgImage"><label for="emoji-dizzy"><i class="bi bi-emoji-dizzy"></i></label>
+                
+                <p>Submitting this form will add a background image emoji.</p>
+                <button type="submit">SUBMIT BUTTON</button>
+            </form>
+        </div>
+    </div>
+    </main>
+
+    
+
+    <!--JavaScript-->
+    <script src="js/main.js"></script>    
+</body>
+</html>

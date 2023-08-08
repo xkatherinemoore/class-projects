@@ -1,0 +1,58 @@
+/* 
+NAME: Katherine Moore
+MEID: KAT2341012
+DATE: 7/7/2023
+*/
+
+html {
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  button {
+    background: darkblue;
+    border: 2px solid darkblue;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    text-transform: uppercase;
+
+    /* Added styling */
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+  }
+
+  /* RESULTS STYLING */
+  #output_container {
+    display: none;
+    border: 5px solid darkblue;
+    width: 50%;
+    margin: 30px auto 0;
+    padding: 25px;
+    flex-direction: column;
+  }
+
+  .js_output {
+    display: block;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    font-size: 48px;
+  }

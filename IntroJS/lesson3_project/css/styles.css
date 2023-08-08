@@ -1,0 +1,18 @@
+/* 
+NAME: Katherine Moore
+MEID: KAT2341012
+DATE: 6/17/2023
+*/
+
+/* div in main element */
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+/* p element in .container */
+.avengers-bg {
+    background-color: green;
+    padding: 10px;
+    color: white;
+}
