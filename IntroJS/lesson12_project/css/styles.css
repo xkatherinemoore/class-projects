@@ -1,0 +1,31 @@
+/* 
+NAME: Katherine Moore
+MEID: KAT2341012
+DATE: 08/09/2023
+*/
+
+html, body {
+    font-family: sans-serif;
+    height: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+button {
+    background-color: darkblue;
+    padding: 5px;
+    color: white;
+    border: 1px solid darkblue;
+    border-radius: 3px;
+    font-size: 22px;
+}
